@@ -65,6 +65,8 @@ pip install pandas plotly prophet seaborn
 
 4. Load the included CSV datasets and run cells sequentially to reproduce the analysis.
 
+---
+
 ### Project Structure
 
 ```HelloFresh_Marketing_Data_Analytics_Project.ipynb``` — Full analysis notebook with code, visualizations, and markdown explanations.
@@ -78,6 +80,8 @@ Open-source Python libraries: Pandas, Plotly, Prophet, Seaborn.
 
 Guidance from community forums and documentation on growth marketing analytics and forecasting.
 
+---
+
 ### Acknowledgments
 
 * Data and inspiration from publicly available HelloFresh marketing performance datasets.
@@ -86,8 +90,24 @@ Guidance from community forums and documentation on growth marketing analytics a
 
 * Guidance from community forums and documentation on growth marketing analytics and forecasting.
 
+---
+
+### HelloFresh Marketing Data Analytics Project Notebook in Google Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DGhh8snDDTjP1ZCZrUx5MMz7OBKF1Jxg#scrollTo=ZrWLBxyZ9Zd3)
+
+---
+
+### Author
+
+[![GitHub](https://img.shields.io/badge/GitHub-Balbir89-blue?logo=github&style=flat-square)](https://github.com/balbir89)
+[![Email](https://img.shields.io/badge/Email-balbirbhatia.20@gmail.com-red?style=flat-square&logo=gmail&logoColor=white)](mailto:balbirbhatia.20@gmail.com)
+
+**Thank you for exploring this project! Feel free to reach out if you have questions or suggestions.**
+
+---
+
+[![Try Me!](https://img.shields.io/badge/Try%20Me!-Let's%20Go!-brightgreen?style=for-the-badge)](#)
 
 
 
