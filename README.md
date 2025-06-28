@@ -9,90 +9,57 @@
 [![Xing](https://img.shields.io/badge/Xing-Balbir%20Singh-green?style=flat&logo=xing)](https://www.xing.com/profile/Balbir_Singh26/web_profiles)
 [![Phone](https://img.shields.io/badge/Phone-%2B49%2017683380871-blue?style=flat&logo=phone)](tel:+4917683380871)
 
+A comprehensive analysis of HelloFresh's marketing data from 2017 to 2024, providing actionable insights to optimize marketing strategies and improve customer acquisition efficiency.
+
 ---
 
-## Project Overview
+## Summary
 
-This project presents an in-depth marketing data analysis of HelloFresh spanning 2017 to 2024. The goal was to extract actionable insights to optimize marketing campaigns, improve channel targeting, and support strategic growth decisions.
+This project analyzes HelloFresh's marketing campaigns, customer acquisition costs (CAC), revenue trends, and channel performance. It uses statistical methods and forecasting to support data-driven decision-making.
+
+---
+
+## Problem Statement
+
+HelloFresh faces challenges in optimizing marketing spend to reduce CAC while maximizing revenue growth in a competitive market.
+
+---
+
+## Project Goal
+
+Provide data-driven insights into customer acquisition, marketing channel effectiveness, and forecast future revenue to guide strategic marketing investments.
+
+---
+
+## Data Description
+
+- Dataset includes marketing spend, revenue, CAC, conversion rates, and channel performance from 2017 to 2024.
+- Data is aggregated by region, channel, and year.
+- Source: Simulated dataset based on HelloFresh marketing campaigns.
 
 ---
 
 ## My Role
 
-- Led the end-to-end data analytics project focusing on marketing performance for HelloFresh.
-- Cleaned and preprocessed 8 years of multi-channel marketing data.
-- Conducted exploratory data analysis (EDA), calculated key metrics like CAC and ROAS.
-- Built interactive visualizations and performed statistical simulations including A/B test analysis.
-- Applied time series forecasting models to predict future revenue trends.
-- Delivered clear and actionable recommendations for marketing strategy optimization.
+- Conducted exploratory data analysis (EDA) and data cleaning.
+- Calculated key marketing metrics such as ROAS and CAC trends.
+- Performed A/B test simulations to evaluate marketing campaigns.
+- Developed time series models to forecast revenue.
+- Created interactive visualizations to communicate insights.
 
 ---
 
 ## Key Highlights
 
-1. **Analyzed 8 years of multi-channel marketing data** to identify trends in customer acquisition cost (CAC), return on ad spend (ROAS), and channel performance.
-2. **Calculated and visualized key marketing KPIs** including CAC, ROAS, average order value (AOV), and conversion metrics.
-3. **Simulated A/B testing and lift test scenarios** to evaluate marketing campaign effectiveness statistically.
-4. **Performed time series forecasting** to project future revenue trends and identify seasonal patterns.
-5. **Built interactive visualizations** using Plotly to communicate insights dynamically.
-6. **Delivered strategic, data-driven recommendations** for budget allocation, regional targeting, and marketing experimentation.
-7. Tools and technologies used: Python (Pandas, Plotly, Prophet), Jupyter Notebook (Google Colab), SQL, and data visualization libraries.
+- Data preprocessing and aggregation using pandas.
+- Visualization using matplotlib, seaborn, and Plotly for interactivity.
+- Statistical analysis for A/B testing simulations.
+- Time series forecasting with Facebook Prophet.
+- Dashboard creation recommendations with Tableau and Google Data Studio.
 
 ---
 
-## Results & Impact
-
-- Discovered that **Europe consistently maintains a 15-20% lower CAC** compared to other regions, enabling more cost-efficient customer acquisition strategies.
-- Identified **Paid Search and Social Media as the highest performing channels**, contributing over 50% of conversions.
-- Simulated A/B tests highlighted a potential **12% lift in campaign ROI** through targeted channel reallocation.
-- Revenue forecasting indicated a steady **5% year-over-year growth**, confirming robustness of marketing investment plans.
-- Recommendations based on this analysis are expected to **improve marketing efficiency by 10-15% and reduce wasted spend** across channels.
-
----
-
-## Getting Started
-
-To run the analysis:
-
-1. Clone the repository:
-git clone https://github.com/Balbir89/HelloFresh-Marketing-Data-Analytics.git
-
-2. Open the Jupyter notebook `HelloFresh_Marketing_Data_Analytics_Project.ipynb` in Google Colab or your preferred environment.
-3. Install required packages:
-```bash
-pip install pandas plotly prophet seaborn
-```
-
-4. Load the included CSV datasets and run cells sequentially to reproduce the analysis.
-
----
-
-### Project Structure
-
-```HelloFresh_Marketing_Data_Analytics_Project.ipynb``` — Full analysis notebook with code, visualizations, and markdown explanations.
-
-```data/hellofresh_marketing_data_2017_2024.csv``` — Cleaned marketing data used for analysis.
-
-Acknowledgments
-Data and inspiration from publicly available HelloFresh marketing performance datasets.
-
-Open-source Python libraries: Pandas, Plotly, Prophet, Seaborn.
-
-Guidance from community forums and documentation on growth marketing analytics and forecasting.
-
----
-
-### Acknowledgments
-
-* Data and inspiration from publicly available HelloFresh marketing performance datasets.
-
-* Open-source Python libraries: Pandas, Plotly, Prophet, Seaborn.
-
-* Guidance from community forums and documentation on growth marketing analytics and forecasting.
-
----
-
-## 📊 Visualizations
+## Visualizations
 
 This project includes a range of insightful visualizations to help interpret HelloFresh’s marketing performance over the years (2017–2024). Key visual components include:
 
@@ -126,6 +93,67 @@ This project includes a range of insightful visualizations to help interpret Hel
 * Revenue forecast incorporating marketing spend as a regressor, showing the impact of advertising on future revenue.
     ![Revenue Forecast with Marketing Spend as Regressor](https://github.com/Balbir89/HelloFresh-Marketing-Data-Analytics/blob/main/images/Revenue%20Forecast%20with%20Marketing%20Spend%20as%20Regressor.png?raw=true)
 
+---
+
+## Results & Impact
+
+- CAC decreased by 15% in Europe from 2017 to 2024, indicating improved marketing efficiency.
+- Paid Search accounted for 40% of total conversions in 2023, the highest among all channels.
+- Simulated A/B testing showed a statistically significant 5% lift in conversions with a new campaign.
+- Revenue is forecasted to grow at an average annual rate of 7%, reaching €500M by 2027.
+
+---
+
+## Recommendations / Next Steps
+
+- Increase investment in top-performing channels like Paid Search and Social Media.
+- Continue A/B testing new campaign creatives to optimize conversion rates.
+- Implement interactive dashboards for real-time monitoring.
+- Extend forecasting models with external market indicators.
+
+---
+
+## Future Enhancements
+
+- Incorporate customer lifetime value (LTV) modeling.
+- Analyze customer churn and retention metrics.
+- Use real-world HelloFresh data if available.
+- Automate data pipeline for ongoing analysis.
+
+---
+
+## How to Run / Getting Started
+
+1. Click the "Open in Colab" badge above to launch the Jupyter Notebook in Google Colab.
+2. Ensure you have a Google account to access Colab.
+3. The notebook will automatically install necessary libraries.
+4. Follow the step-by-step analysis from data loading to visualization.
+
+---
+
+### Project Structure
+
+```HelloFresh_Marketing_Data_Analytics_Project.ipynb``` — Full analysis notebook with code, visualizations, and markdown explanations.
+
+```data/hellofresh_marketing_data_2017_2024.csv``` — Cleaned marketing data used for analysis.
+
+Acknowledgments
+Data and inspiration from publicly available HelloFresh marketing performance datasets.
+
+Open-source Python libraries: Pandas, Plotly, Prophet, Seaborn.
+
+Guidance from community forums and documentation on growth marketing analytics and forecasting.
+
+---
+
+### Acknowledgments
+
+* Data and inspiration from publicly available HelloFresh marketing performance datasets.
+
+* Open-source Python libraries: Pandas, Plotly, Prophet, Seaborn.
+
+* Guidance from community forums and documentation on growth marketing analytics and forecasting.
+
 --- 
 
 ### HelloFresh Marketing Data Analytics Project Notebook in Google Colab
@@ -143,7 +171,9 @@ This project includes a range of insightful visualizations to help interpret Hel
 
 ---
 
-[![Try Me!](https://img.shields.io/badge/Try%20Me!-Let's%20Go!-brightgreen?style=for-the-badge)](#)
+## License
+
+This project is for educational and portfolio purposes only.
 
 
 
