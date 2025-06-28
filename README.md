@@ -92,6 +92,42 @@ Guidance from community forums and documentation on growth marketing analytics a
 
 ---
 
+## 📊 Visualizations
+
+This project includes a range of insightful visualizations to help interpret HelloFresh’s marketing performance over the years (2017–2024). Key visual components include:
+
+### Customer Acquisition Cost (CAC) Trends:
+
+* Interactive line charts displaying CAC variations by region and year, highlighting efficiency improvements and geographic differences.
+    ![CAC Trends by Region](https://github.com/Balbir89/HelloFresh-Marketing-Data-Analytics/blob/main/images/CAC%20Trends%20by%20Region.png?raw=true)
+* Distribution of Customer Acquisition Cost (CAC), showing the spread and typical values.
+    ![Distribution of Customer Acquisition Cost (CAC)](https://github.com/Balbir89/HelloFresh-Marketing-Data-Analytics/blob/main/images/Distribution%20of%20Customer%20Acquisition%20Cost%20(CAC).png?raw=true)
+
+### Channel Performance Analysis:
+
+* Bar charts and heatmaps showing average revenue contribution per marketing channel, identifying top-performing channels.
+    ![Average Revenue per Channel](https://github.com/Balbir89/HelloFresh-Marketing-Data-Analytics/blob/main/images/Avg%20Revenue%20per%20Channel.png?raw=true)
+* Visualizations of conversions by marketing channel and year, illustrating performance trends over time.
+    ![Conversions by Marketing Channel and Year](https://github.com/Balbir89/HelloFresh-Marketing-Data-Analytics/blob/main/images/Conversions%20by%20Marketing%20Channel%20and%20Year.png?raw=true)
+* Overall Revenue Trend: Track the growth of HelloFresh's revenue over the analysis period.
+    ![HelloFresh Revenue Trend (2017-2024)](https://github.com/Balbir89/HelloFresh-Marketing-Data-Analytics/blob/main/images/HelloFresh%20Revenue%20Trend%20(2017-2024).png?raw=true)
+    ![Total Revenue Over Time](https://github.com/Balbir89/HelloFresh-Marketing-Data-Analytics/blob/main/images/Total%20Revenue%20Over%20Time.png?raw=true)
+    ![Revenue Decomposition](https://github.com/Balbir89/HelloFresh-Marketing-Data-Analytics/blob/main/images/Revenue%20(%E2%82%ACM).png?raw=true)
+
+
+### A/B Test Simulations:
+
+* Visual breakdowns of simulated lift tests and campaign impact, demonstrating how statistical tests guide marketing decisions. (Specific images for A/B tests were not provided, but this section maintains the textual description.)
+
+### Time Series Revenue Forecasting:
+
+* Forecast plots using Prophet to project future revenue trends and identify seasonal patterns.
+    ![HelloFresh Revenue Forecast (Next 3 Years)](https://github.com/Balbir89/HelloFresh-Marketing-Data-Analytics/blob/main/images/HelloFresh%20Revenue%20Forecast%20(Next%203%20Years).png?raw=true)
+* Revenue forecast incorporating marketing spend as a regressor, showing the impact of advertising on future revenue.
+    ![Revenue Forecast with Marketing Spend as Regressor](https://github.com/Balbir89/HelloFresh-Marketing-Data-Analytics/blob/main/images/Revenue%20Forecast%20with%20Marketing%20Spend%20as%20Regressor.png?raw=true)
+
+--- 
+
 ### HelloFresh Marketing Data Analytics Project Notebook in Google Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DGhh8snDDTjP1ZCZrUx5MMz7OBKF1Jxg#scrollTo=ZrWLBxyZ9Zd3)
